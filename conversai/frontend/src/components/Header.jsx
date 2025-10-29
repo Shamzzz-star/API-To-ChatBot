@@ -28,7 +28,7 @@ const Header = ({ onNewChat }) => {
             </button>
             
             <a
-              href="https://github.com/Shamzzz-star/CONVERSAI-API"
+              href="https://github.com/Shamzzz-star/API-To-ChatBot"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-gray-900 transition-colors"
