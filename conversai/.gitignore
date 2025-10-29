@@ -1,0 +1,152 @@
+# .gitignore for CONVERSAI-API
+# Covers Python (backend), Node/Vite (frontend), Docker, OS, IDEs, logs, build artifacts, and secrets.
+
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.python-version
+.python
+venv/
+ENV/
+.envvenv/
+.venv/
+env/
+env.bak/
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+*.whl
+.installed.cfg
+pip-selfcheck.json
+
+# Packaging
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SQLite DBs and local DB files
+*.sqlite
+*.sqlite3
+*.db
+conversai.db
+backend/data/
+
+# Logs
+*.log
+logs/
+
+# -------------------
+# Node / Frontend (Vite, React)
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+# Vite cache
+.vite/
+# build output
+dist/
+build/
+# TypeScript build info
+*.tsbuildinfo
+# local env files
+.env
+.env.*
+
+# Keep example env files (do not ignore example files)
+!*.example
+!**/.env.example
+
+# -------------------
+# Docker
+# -------------------
+.docker/
+docker-compose.override.yml
+docker-compose.*.yml
+docker-sync.yml
+docker-compose.local.yml
+
+# -------------------
+# IDEs / Editors
+# -------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.code-workspace
+.history/
+
+# -------------------
+# OS files
+# -------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------
+# Secrets / Keys
+# -------------------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*.asc
+secrets.*
+*.secret
+
+# -------------------
+# Binary / build artifacts
+# -------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+
+# -------------------
+# Misc
+# -------------------
+.coverage
+*.cover
+*.log
+*.tmp
+tmp/
+temp/
+
+# Ignore environment-specific local files that may be created by tools
+.vagrant/
+
+# End of .gitignore
